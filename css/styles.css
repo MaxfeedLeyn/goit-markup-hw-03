@@ -86,6 +86,7 @@ img{
     display: flex;
     gap: 40px;
     flex-grow: 1;
+    padding: 24px 0;
 }
 
 .header-nav-item{
@@ -93,7 +94,6 @@ img{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    padding: 24px 0;
 }
 
 .header-nav-item a{
@@ -183,6 +183,10 @@ img{
     display: none;
 }
 
+.benefits-item{
+    width: calc((100% - 72px) / 4);
+}
+
 .benefits-item-title{
     color: #2e2f42;
     font-weight: 500;
@@ -224,20 +228,22 @@ img{
     border-radius: 0 0 4px 4px;
 }
 
+.team-member-description{
+    padding: 32px 0;
+}
+
 .team-members-name{
     color: #2e2f42;
     font-weight: 500;
     font-size: 20px;
     line-height: 120%;
     letter-spacing: 0.02em;
-    margin-top: 32px;
     margin-bottom: 8px;
 }
 
 .team-members-position{
     line-height: 150%;
     letter-spacing: 0.02em;
-    padding-bottom: 32px;
 }
 
 /* portfolio */
@@ -300,6 +306,8 @@ img{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     font-family: "Raleway", sans-serif;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-logo-second{
@@ -310,6 +318,5 @@ img{
     line-height: 150%;
     color: #f4f4fd;
     letter-spacing: 0.02em;
-    margin-top: 16px;
     max-width: 264px;
 }
