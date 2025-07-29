@@ -67,6 +67,7 @@ img{
 }
 
 .header-logo{
+    padding: 24px 0;
     display: flex;
     font-weight: 700;
     font-size: 18px;
@@ -89,7 +90,6 @@ img{
 }
 
 .header-nav-item{
-    padding: 24px 0;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -97,6 +97,7 @@ img{
 }
 
 .header-nav-item a{
+    padding: 24px 0;
     color: #2e2f42;
 }
 
